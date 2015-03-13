@@ -1,6 +1,7 @@
 import serial
 #establish serial port connection to arduino.
 port = serial.Serial("/dev/cu.usbmodem1411",9600, timeout=2)
+#run serial port script in pyserial-2.7/setup.py using terminal with :python setup.py install --user
 #######################################################################
 
 while True:
